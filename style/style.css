@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+@media (max-width: 500px) {
+  .input {
+    width: 180px;
+  }
+}
+.input input {
+  width: 200px;
+  height: 60px;
+  border: 1px solid #000;
+  overflow: hidden;
+  text-align: center;
+}
+
+.calc {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.calc__action {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.calc__numbers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.calc__action {
+  margin-top: 25px;
+}
+
+.calc__numbers button {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
